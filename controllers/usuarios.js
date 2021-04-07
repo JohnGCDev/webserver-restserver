@@ -49,11 +49,11 @@ const usuariosPut = async(req, res = response) => {
 const usuariosDelete = async(req, res = response) => {
     const { id } = req.params;
 
-    // Eliminación fisica - No recomendado
+    // Eliminación fisica - No recomendado!
     // const usuario = await Usuario.findByIdAndDelete(id);
 
     // Eliminación lógica
-    const usuario = await Usuario.findByIdAndUpdate(id, {estado: false})
+    const usuario = await Usuario.findByIdAndUpdate(id, { estado: false });
 
     res.json({
         usuario,
