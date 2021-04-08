@@ -21,6 +21,7 @@ You'll need:
 ```
 * A custom private or public key in order to generate JWT. Write it in the "SECRETORPRIVATEKEY" field in the [example.env](example.env) file.
 * Generate a client ID in [Google Sign-In](https://developers.google.com/identity/sign-in/web/sign-in) for websites, then put it on "GOOGLE_CLIENT_ID" field in the [example.env](example.env) file.
+* A [Cloudinary](https://cloudinary.com/) account, generate an API Environment variable and put it on "CLOUDINARY_URL" field in the [example.env](example.env) file.
 * Finally, rename the [example.env](example.env) file to .env
 
 ## Execution

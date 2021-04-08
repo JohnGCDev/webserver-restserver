@@ -11,7 +11,7 @@ const {
     esRoleValido,
     emailExiste,
     existeUsuarioPorId,
-} = require("../helpers/db-validators");
+} = require("../helpers");
 
 const { validarCampos, validarJWT, tieneRol } = require("../middlewares");
 
