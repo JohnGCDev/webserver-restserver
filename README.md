@@ -33,4 +33,4 @@ npm start
 ```
 
 ## Note
-This project was inspired by Fernando Herrera (Twitter: @fernando_her85) and its online course: "Node: De cero a experto ( Edición 2021 )"
+This project was inspired by Fernando Herrera [(Twitter: @fernando_her85)](https://twitter.com/fernando_her85) and its online course: "Node: De cero a experto ( Edición 2021 )"
